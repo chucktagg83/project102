@@ -1,0 +1,37 @@
+
+
+/* tables */
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    width: 80%;
+}
+table, th, td {
+    border: 5px solid rgb(4, 15, 116);
+    border-collapse: collapse; 
+    color: gold;
+}
+table {
+    width: 100%;
+    margin: 40px;
+    border-collapse: collapse;
+}
+th {
+    color: goldenrod;
+    font-size: 25px;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    background-color:rgb(7, 10, 43)
+}
+td {
+    font-size: 20px;
+}
+.error {
+    background-color: rgb(241, 182, 182);
+    color: red;
+}
